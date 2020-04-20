@@ -1,0 +1,622 @@
+/* All Devices */
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #44486b;
+}
+
+/* HTML & Body */
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navigasi */
+.navigasi-brand {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 3px #dd5e4d solid;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+}
+.navigasi-brand p span {
+    font-family: adidas;
+}
+.navigasi-brand p {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+/* Background Awal */
+.bg-awal {
+    height: 600px;
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    padding-top: 35px;
+}
+.bg-awal .sepatu-thumbnail {
+    margin-bottom: 20px;
+}
+.bg-awal .promosi {
+    height: 530px;
+    background-color: #dd5e4d;
+    padding: 50px 90px;
+}
+.bg-awal .promosi h4.for-men {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+.bg-awal .promosi h4.for-men span {
+    font-weight: 500;
+}
+.bg-awal .promosi h1.model {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.bg-awal .promosi h1.model span {
+    font-family: adidas;
+    text-transform: lowercase;
+    font-weight: 200;
+}
+.bg-awal .promosi h4.warna {
+    color: white;
+    text-transform: uppercase;
+}
+.bg-awal .promosi h3.sale-at {
+    color: white;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+} 
+.bg-awal .promosi h3.sale-at span {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-size: 200;
+    margin-left: 10px;
+}
+.bg-awal .promosi h3.diskon {
+    color: white;
+    font-size: 60px;
+}
+.bg-awal .promosi h3.diskon span {
+    font-size: 20px;
+    color: white;
+    vertical-align: top;
+}
+.bg-awal .promosi p.kota {
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+.bg-awal .promosi p {
+    text-transform: capitalize;
+    color: white;
+    font-weight: 200;
+}
+
+/* Panel Tombol */
+.panel-tombol {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom: 3px #dd5e4d solid;
+    border-top: 3px #dd5e4d solid;
+}
+.panel-tombol p {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -47px;
+    font-family: quirlycues;
+}
+.tombol-warna {
+    margin-top: -20px;
+    margin-left: 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.biru-navy {
+    background-color: #000080;
+    color: #000080;
+    border: 2px #000080 solid;
+    transition: all ease-in 0.2s;
+}
+.biru-navy:hover {
+    background-color: #fff;
+    color: #000080;
+    border: 2px #000080 solid;
+    transition: all ease-in 0.2s;
+    letter-spacing: 2px;
+}
+.full-black {
+    background-color: #000;
+    color: #000;
+    border: 2px #000 solid;
+    transition: all ease-in 0.2s;
+}
+.full-black:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px #000 solid;
+    transition: all ease-in 0.2s;
+    letter-spacing: 2px;
+}
+.abu-abu {
+    background-color: rgb(88, 84, 84);
+    color: rgb(88, 84, 84);
+    border: 2px rgb(88, 84, 84) solid;
+    transition: all ease-in 0.2s;
+}
+.abu-abu:hover {
+    background-color: #fff;
+    color: rgb(88, 84, 84);
+    border: 2px rgb(88, 84, 84) solid;
+    transition: all ease-in 0.2s;
+    letter-spacing: 2px;
+}
+.hitam-putih {
+    background-image: linear-gradient(to top, white 40%, black 40% 60%);
+    border: 2px #000 solid;
+    transition: all ease-in 0.2s;
+    color: #000;
+}
+.hitam-putih:hover {
+    background-image: linear-gradient(to top, white 50%, white 50%);
+    color: #000;
+    border: 2px #000 solid;
+    transition: all ease-in 0.2s;
+    letter-spacing: 2px;
+}
+.abu-putih {
+    background-image: linear-gradient(to top, white 40%, rgb(88, 84, 84) 40% 60%);
+    border: 2px rgb(88, 84, 84) solid;
+    transition: all ease-in 0.2s;
+    color: rgb(88, 84, 84);
+}
+.abu-putih:hover {
+    background-image: linear-gradient(to top, white 50%, white 50%);
+    color: rgb(88, 84, 84);
+    border: 2px rgb(88, 84, 84) solid;
+    transition: all ease-in 0.2s;
+    letter-spacing: 2px;
+}
+
+/* Kelebihan */
+.kelebihan {
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px black solid;
+    padding-bottom: 40px;
+}
+.kelebihan .kelebihan-sepatu {
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+}
+.kelebihan .kelebihan-sepatu h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 500;
+}
+.kelebihan .kelebihan-sepatu h1 span {
+    text-transform: lowercase;
+    font-family: adidas;
+    margin-left: 160px;
+    font-size: 30px;
+}
+.kelebihan .kelebihan-sepatu p .fa-check-square {
+    color: green;
+}
+.kelebihan .kelebihan-sepatu p {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.kelebihan .kelebihan-sepatu p:hover {
+    transform: rotate(2deg);
+}
+.kelebihan .kelebihan-sepatu .tombol-beli {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Countdown & Pembelian */
+.pembelian {
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 15px black;
+    padding: 40px;
+}
+.pembelian .beli-produk {
+    margin-top: 30px;
+}
+.hitung-mundur {
+    width: 100%;
+}
+.pembelian .hitung-mundur h1 {
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 200;
+    font-family: springchicken;
+}
+.pembelian .hitung-mundur h1 span {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: loveofyellow;
+}
+#clock {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#clock div {
+    position: relative;
+    width: 100px;
+    padding: 20px;
+    margin: 0 10px;
+    background: #262626;
+    color: white;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#clock div:last-child {
+    background: #dd5e4d;
+}
+#clock div:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255, 255, 255, .2);
+}
+#clock div span {
+    display: block;
+    text-align: center;
+}
+#clock div span:nth-child(1){
+    font-size: 38px;
+    font-weight: 700;
+}
+#clock div span:nth-child(2){
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.pembelian .harga-coret {
+    margin-top: 20px;
+}
+.pembelian .harga-coret span {
+    font-size: 14px;
+}
+.pembelian .harga-coret del {
+    font-size: 22px;
+    font-family: springchicken;
+}
+.pembelian  .harga-diskon span {
+    font-size: 30px;
+    vertical-align: top;
+}
+.harga-diskon {
+    font-size: 70px;
+    font-family: springchicken;
+    font-weight: bold;
+}
+
+/* Adidas Blur */
+.adidas-blur {
+    height: 350px;
+    background-image: url('../img/adidas-blur.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Gallery */
+.gallery {
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 15px black;
+    padding: 40px;
+}
+.gallery .karosel-adidas img {
+    width: 400px;
+}
+.gallery .tempat-logo img {
+    margin-top: 90px;
+}
+.gallery .tempat-logo h1 {
+    font-family: adidas;
+}
+
+/* Form Komen */
+.form-komen {
+    padding-top: 30px;
+}
+.form-komen .kotak-komen-gambar {
+    margin: auto;
+    margin-top: 25px;
+}
+.form-komen .kotak-komen {
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+.form-komen .kotak-komen button {
+    width: 100px;
+}
+
+/* Khusus hr */
+.khusus-hr hr {
+    width: 85%;
+    border-top: 2px solid black;
+    margin-top: 60px;
+}
+.khusus-hr h3 {
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Hasil Komen */
+.hasil-komen {
+    padding-top: 10px;
+}
+.hasil-komen .photo-people img {
+    width: 50px;
+    border-radius: 50px;
+}
+.hasil-komen .isi-komen {
+    width: 100%;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-top: 3px #dd5e4d solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.footer-brand p span {
+    font-family: adidas;
+}
+.footer-brand p {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.footer .sosmed-yangpunya {
+    border-right: 2px solid black;
+    text-align: right;
+}
+.footer .alamat-yangpunya p {
+    line-height: 1px;
+}
+.footer .yangpunya {
+    margin-bottom: 20px;
+}
+.footer .sosmed-yangpunya .sosmed p.ig {
+    margin-top: -15px;
+}
+
+
+/* Certain Device */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+    .bg-awal .sepatu-thumbnail {
+        margin-bottom: 10px;
+    }
+    .bg-awal .promosi {
+        padding: 30px 90px;
+    }
+    .panel-tombol {
+        margin-top: 440px;
+    }
+    .tombol-warna {
+        margin-bottom: 30px;
+    }
+    .kelebihan .kelebihan-sepatu {
+        text-align: center;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .kelebihan .kelebihan-sepatu h1 {
+        margin-top: 20px;
+    }
+    .kelebihan .kelebihan-sepatu h1 span {
+        margin-left: 0;
+    }
+    #clock {
+        width: 400px;
+    }
+    #clock div span:nth-child(1){
+        font-size: 28px;
+    }
+    #clock div span:nth-child(2){
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    #clock div {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .form-komen .kotak-komen {
+        margin-top: 1px;
+        width: 90%;
+    }
+    .khusus-hr h3 {
+        margin-left: 20px;
+    }
+    .footer .sosmed-yangpunya {
+        border-right: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer .alamat-yangpunya {
+        text-align: center;
+    }
+    .adidas-blur {
+        height: 350px;
+        background-size: cover;
+    }
+    .gallery .tempat-logo img {
+        margin-top: 10px;
+        width: 120px;
+    }
+    .gallery {
+        padding: 20px;
+    }
+    .gallery .tempat-logo h1 {
+        font-family: adidas;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .bg-awal .sepatu-thumbnail {
+        margin-bottom: 10px;
+    }
+    .bg-awal .promosi {
+        padding: 40px 40px;
+        height: 550px;
+    }
+    .bg-awal .promosi h4.for-men {
+        font-size: 20px;
+    }
+    .bg-awal .promosi h1.model {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .panel-tombol {
+        margin-top: 435px;
+    }
+    .tombol-warna {
+        margin-bottom: 30px;
+    }
+    .kelebihan .kelebihan-sepatu {
+        text-align: center;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .kelebihan .kelebihan-sepatu h1 {
+        margin-top: 20px;
+    }
+    .kelebihan .kelebihan-sepatu h1 span {
+        margin-left: 0;
+    }
+    #clock {
+        width: 500px;
+    }
+    #clock div span:nth-child(1){
+        font-size: 32px;
+    }
+    #clock div span:nth-child(2){
+        font-size: 15px;
+        margin-top: 3px;
+    }
+    #clock div {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .form-komen .kotak-komen {
+        margin-top: 1px;
+        width: 90%;
+    }
+    .footer .alamat-yangpunya {
+        padding-top: 20px;
+    }
+    .footer .alamat-yangpunya p span {
+        line-height: 40px;
+    }
+    .footer .sosmed-yangpunya .sosmed {
+        padding-top: 30px;
+    }
+    .gallery .tempat-logo img {
+        margin-top: 0px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bg-awal .promosi {
+        padding: 50px 30px;
+    }
+    .bg-awal .promosi h4.for-men {
+        font-size: 20px;
+    }
+    .bg-awal .promosi h1.model {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .bg-awal .sepatu-thumbnail {
+        margin-top: 100px;
+    }
+    .tombol-warna {
+        margin-bottom: 30px;
+    }
+    .kelebihan .kelebihan-sepatu {
+        text-align: center;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .kelebihan .kelebihan-sepatu h1 {
+        margin-top: 20px;
+    }
+    .kelebihan .kelebihan-sepatu h1 span {
+        margin-left: 0;
+    }
+    .gallery .tempat-logo img {
+        margin-top: 0px;
+    }
+    .gallery {
+        padding: 20px;
+    }
+    .gallery .tempat-logo h1 {
+        font-family: adidas;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bg-awal .promosi h4.for-men {
+        font-size: 20px;
+    }
+    .bg-awal .promosi h1.model {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .bg-awal .sepatu-thumbnail {
+        margin-top: 40px;
+    }
+    .kelebihan img {
+        margin-top: 40px;
+    }
+    .kelebihan .kelebihan-sepatu h1 span {
+        margin-left: 0;
+    }
+    .kelebihan .kelebihan-sepatu button {
+        margin-bottom: 20px;
+    }
+}

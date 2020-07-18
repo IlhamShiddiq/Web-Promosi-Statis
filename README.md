@@ -1,3 +1,3 @@
-Membuat web promosi sepatu
+Web Promotion
 ------------------------------------
-Web statis
+Check this website [here](https://promosi-web.web.app/)
